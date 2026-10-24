@@ -202,3 +202,17 @@ color: #ffffff;
 text-decoration: none;
 }
 
+.localizacao {
+    color: #FFFFFF;
+}
+
+.localizacao h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.localizacao iframe {
+    display: flex;
+    justify-content: center;
+}
+

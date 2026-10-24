@@ -5,6 +5,7 @@ box-sizing: border-box;
 }
 body{
 font-family: "Poppins", sans-serif;
+background: #000000;
 }
 
 header{
@@ -78,9 +79,27 @@ justify-content: center;
 }
 
 .banner_image {
-    width: 1521px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.saiba-mais {
+    background: #000000;
+    color: #FFFFFF;
 }
 
+.saiba-mais h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.saiba-mais p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 /*Sobre mim */
 .sobre-mim {
     background-color: #000000;

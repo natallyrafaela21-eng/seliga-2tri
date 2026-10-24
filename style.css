@@ -1,0 +1,159 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: "Poppins", sans-serif;
+}
+
+header{
+background-color: #000000;
+color: white;
+width: 100%;
+padding: 20px;
+}
+.cabecalho-itens{
+max-width: 1980px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cabecalho_imagem {
+width: 10%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.titulo_site{
+padding: 50px;
+text-align: center;
+width: 50%;
+font: 30px;
+}
+.sociais {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone-social {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
+}
+/*banner*/
+.banner1{
+display: flex;
+justify-content: center;
+}
+
+.banner_image {
+    width: 1521px;
+}
+
+/*Sobre mim */
+.sobre-mim {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.sobre-titulo {
+    font-size: 36px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.texto-sobre {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.sobre-mim p strong {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Projetos*/
+.projetos {
+    padding: 40px 8%;
+}
+
+.projeto-titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+
+.projeto_todos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.projeto-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+}
+
+
+.projeto-imagem {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.projeto-nome {
+    font-size: 22px;
+    margin: 0;
+    min-width: 120px;
+}
+
+
+.projeto-icone {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+/*rodape*/
+.rodape{
+background-image: linear-gradient(#40A2E3,#7FC2EF);
+color: white;
+display: flex;
+justify-content:center;
+padding: 24px 0;
+text-align:center;
+display:block;
+}
+.rodape-titulo{
+padding: 50px;
+text-align: center;
+}
+.logo_rodape{
+height: 80px;
+padding: 12px 0;
+
+}
+
+.link{
+color: #ffffff;
+text-decoration: none;
+}
+

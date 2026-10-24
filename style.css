@@ -47,6 +47,34 @@ font: 30px;
     object-fit: contain;
     display: block;
 }
+
+.menu {
+  width: 220px;
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 20px 0;
+}
+
+.menu-vertical {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-vertical a {
+  display: block;
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 14px 24px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, padding-left 0.3s;
+}
+
+.menu-vertical a:hover {
+  background-color: #374151;
+  padding-left: 32px;
+}
+
 /*banner*/
 .banner1{
 display: flex;

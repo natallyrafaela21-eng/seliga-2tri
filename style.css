@@ -118,6 +118,23 @@ justify-content: center;
     line-height: 1.3;
 }
 
+.familia {
+    color: #FFFFFF;
+}
+
+.familia h1{
+    display:flex;
+    justify-content:center;
+}
+
+.fotos-familia {
+    display: flex;
+    justify-content: center;
+}
+
+.imagens {
+    max-width: 15%;
+}
 
 /*Projetos*/
 .projetos {

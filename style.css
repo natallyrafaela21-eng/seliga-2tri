@@ -150,16 +150,22 @@ justify-content: center;
     margin-bottom: 30px;
 }
 
-.imagem-time img {
-    max-width: 30%;
+.time h2{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.imagem-time img {
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
     height: auto;
+    margin-bottom:30px;
 }
 
 .texto-time {
  display: flex;
- justify-content: flex-end;
+ justify-content: center;
 }
 
 /*Projetos*/

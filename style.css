@@ -158,7 +158,8 @@ justify-content: center;
 }
 
 .texto-time {
-
+ display: flex;
+ justify-content: flex-end;
 }
 
 /*Projetos*/

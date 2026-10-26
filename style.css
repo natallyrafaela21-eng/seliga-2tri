@@ -173,9 +173,18 @@ justify-content: center;
 .contato {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 24px;
   padding: 16px;
+  box-sizing: border-box;
+}
+
+.contato h1 {
+  margin: 0;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 .contato form {
@@ -184,17 +193,24 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 32px;
 }
 
-.contato input {
+.contato input,
+.contato textarea {
   width: 100%;
   padding: 12px 14px;
   border: 1px solid #374151;
   border-radius: 8px;
+  background-color: #FFFFFF;
   color: #000000;
   font-size: 16px;
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.contato textarea {
+  min-height: 120px;
+  resize: vertical;
 }
 
 .contato button {
@@ -203,7 +219,7 @@ justify-content: center;
   border: none;
   border-radius: 8px;
   background-color: #4C2365;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -211,13 +227,7 @@ justify-content: center;
 }
 
 .contato button:hover {
-  background-color: #7F5D99;
-}
-
-.contato h1 {
-    display: flex;
-    justify-content: center;
-    color:#FFFFFF;
+  background-color: #3A1B4D;
 }
 
 /*Projetos*/
